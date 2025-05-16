@@ -1,7 +1,11 @@
+import Board from "./components/board";
+
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <Board />
+      </div>
     </>
   );
 }
